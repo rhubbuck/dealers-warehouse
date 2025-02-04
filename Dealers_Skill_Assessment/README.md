@@ -13,4 +13,5 @@ Note: The local version of MySQL I use simply uses the root credentials without 
 ## Setup
 1. Ensure Apache and MySQL are installed and running.
 2. Use composer to create a new laravel project (my computer placed this in System32). The only required installation is Laravel Sanctum for auth, which can be installed via "php artisan install:api".
-3. My Vue Project was created on my desktop with Pinia and Vue Router included in the installation via "npm create vue@latest". The only other required installation is Axios.
+3. My Vue Project was created on my desktop with Pinia and Vue Router included in the installation via "npm create vue@latest". The only other required installation is Axios; "npm install axios".
+4. Execute "php artisan serve" to run the Laravel backend and "npm run dev" to run the Vue frontend.
